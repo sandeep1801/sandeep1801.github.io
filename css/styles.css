@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+/* _____________ side bar _________*/
+ .sidebar{
+     position: fixed;
+     background-color: lime;
+     box-shadow: 0 0 10px black;
+     height: 100%;
+     position: fixed;
+ }
+ .sidebar a{
+     text-decoration: none;
+     display: block;
+     text-align: center;
+     width: 250px;
+     padding: 20px;
+     color: white;
+     font-weight: bold;
+     font-size: 30px;
+ }
+.sidebar a:hover{
+    color: darkblue;
+    box-shadow: 0 0 10px;
+}
+ .sidebar img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 6px solid lime;
+     box-shadow: 0 0 10px black;
+     display:block;
+     margin: auto;
+     margin-top: 50px;
+ }
+ #about-section{
+     margin: 20px 0px 0px 20px;
+    margin: auto;
+     width: 900px;
+     font-size: 25px;
+
+ }
+ #fname{
+    color: darkblue;
+   font-size: 40px;
+ }
+ #lname{
+     color: red;
+     font-size: 40px;
+ }
